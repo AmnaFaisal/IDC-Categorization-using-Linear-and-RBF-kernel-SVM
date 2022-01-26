@@ -42,6 +42,7 @@ classes/labels in an n-dimensional space. It works by creating a decision bounda
 vectors in mind. SVM tries to maximize the distance of the decision boundary from these support 
 vectors. The given dataset was trained and tested using two variations of SVM kernels, namely, ‘linear’ 
 and ‘rbf’.
+
 Linear Kernel SVM:
 Linear kernel is usually used in case of datasets such that it is linearly separable (can be separated by 
 a single line). We are classifying the dataset into just two labels/diagnoses, ‘Malignant(M)’ and 
@@ -50,7 +51,8 @@ non-linear functions.
 Linear Kernel Formula is:
 𝐹(𝑥, 𝑥𝑗) = 𝑠𝑢𝑚(𝑥. 𝑥𝑗)
 Where, x and xj represent the data we are trying to classify.
-PAGE 3
+
+
 RBF Kernel SVM:
 RBF or Radial Basis Function is the go-to kernel for non-linear datasets. Here we use this kernel to see 
 if classification of data is better with a linear decision boundary or a non-linear one. 
